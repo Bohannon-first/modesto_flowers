@@ -1,0 +1,1 @@
+{"version":3,"sources":["blocks/container.scss","blocks/container.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,cAAA;ACCF","file":"container.css","sourcesContent":[".container {\n  width: 1420px;\n  margin: 0 auto;\n}\n",".container {\n  width: 1420px;\n  margin: 0 auto;\n}"]}

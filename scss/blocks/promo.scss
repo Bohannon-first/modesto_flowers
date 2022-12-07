@@ -1,0 +1,140 @@
+.promo {
+  background-image: url('../img/background/promo-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1080px;
+  margin-top: -126px;
+
+  @media (max-width: 1419px) {
+    background-image: url('../img/background/promo-background-tablet.jpg');
+    min-height: 1024px;
+  }
+
+  @media (max-width: 767px) {
+    background-image: url('../img/background/promo-background-mobile.jpg');
+    min-height: 568px;
+    margin-top: -58px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    @media (max-width: 1419px) {
+      width: 768px;
+    }
+
+    @media (max-width: 767px) {
+      width: 360px;
+    }
+  }
+}
+
+.promo__title {
+  font-family: "Marmelad";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 66px;
+  width: 887px;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 292px;
+
+  br {
+    display: none;
+  }
+
+  @media (max-width: 1419px) {
+    width: 728px;
+    margin-top: 184px;
+
+    br {
+      display: block;
+    }
+  }
+
+  @media (max-width: 767px) {
+    width: 320px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 149px;
+    margin-bottom: 28px;
+
+    span {
+      display: none;
+    }
+
+    br {
+      display: none;
+    }
+  }
+}
+
+.promo__description {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 30px;
+  width: 700px;
+  text-align: center;
+  margin-bottom: 82px;
+
+  @media (max-width: 1419px) {
+    width: 728px;
+  }
+
+  @media (max-width: 767px) {
+    width: 320px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 32px;
+  }
+}
+
+.promo__services-list {
+  display: flex;
+}
+
+.promo__services-item {
+  @media (max-width: 767px) {
+    width: 156px;
+  }
+}
+
+.promo__services-list {
+  @media (max-width: 767px) {
+    width: 320px;
+    justify-content: space-between;
+  }
+}
+
+.promo__services-link {
+  font-weight: 600;
+  width: 214px;
+  padding: 22px 34px;
+  background-color: var(--main-button);
+  border-radius: 12px;
+  margin-right: 20px;
+
+  @media (max-width: 767px) {
+    width: inherit;
+    padding: 12px 7px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 0;
+  }
+}
+
+.promo__services-link--sell {
+  width: 242px;
+  padding: 24px 42px;
+  background-color: var(--secondary-button);
+  margin-right: 0;
+
+  @media (max-width: 767px) {
+    padding: 12px 7px;
+  }
+}

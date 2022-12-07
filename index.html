@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modesto flowers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marmelad&family=PT+Sans&family=Raleway:wght@300;400;500;600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page__body">
+    <header class="page-header">
+      <div class="container">
+        <div class="page-header__logo-wrapper">
+          <a class="page-header__logo" aria-label="Перейти на главную страницу">
+            <img src="img/icons/logo-desktop.svg" width="98" height="86" alt="Логотип Modesto flowers">
+          </a>
+        </div>
+        <div class="page-header__wrapper">
+          <nav class="main-nav">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link" aria-label="Ссылка на наши магазины">Магазины</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link" aria-label="Наши контакты">Контакты</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link" aria-label="Страница о нас">О нас</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="page-header__contacts">
+            <div class="page-header__phone">
+              <a class="page-header__phone-link" href="tel:+36787547894" aria-label="Контактный телефон +3 67 8754 7894">+3 67 8754 7894</a>
+            </div>
+            <div class="page-header__choose-lang">
+              <a class="page-header__choose-ru" href="#">Ru</a>
+              <a class="page-header__choose-eng" href="#">Eng</a>
+            </div>
+            <div class="sign-up">
+              <a class="sign-up__login-link" href="#">Войти</a>
+              <a class="sign-up__registration-link" href="#">Создать аккаунт</a>
+            </div>
+          </div>
+          <div class="page-header__toggle-container">
+            <button class="page-header__btn-burger" type="button" aria-label="Кнопка главного меню на мобильных и планшетах">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.33334 11.6667H31.6667" stroke="#372E11" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8.33334 20H25" stroke="#372E11" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8.33334 28.3333H18.3333" stroke="#372E11" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+          </div>
+          <div class="main-nav__adaptive hidden">
+            <ul class="main-nav__adaptive-list">
+              <li class="main-nav__adaptive-item">
+                <a class="main-nav__adaptive-link" href="#">Магазины</a>
+              </li>
+              <li class="main-nav__adaptive-item">
+                <a class="main-nav__adaptive-link" href="#">Контакты</a>
+              </li>
+              <li class="main-nav__adaptive-item">
+                <a class="main-nav__adaptive-link" href="#">О нас</a>
+              </li>
+              <li class="main-nav__adaptive-item main-nav__adaptive-item-enter">
+                <a class="main-nav__adaptive-link" href="#">Войти</a>
+              </li>
+              <li class="main-nav__adaptive-item">
+                <a class="main-nav__adaptive-link" href="#">Создать аккаунт</a>
+              </li>
+            </ul>
+            <button class="main-nav__adaptive-btn-close" type="button" aria-label="Закрыть мобильное меню"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page-main">
+      <section class="promo">
+        <div class="container">
+          <h1 class="promo__title">Мы будем рады сотрудничать с вами на <span>платформе</span> <br> 'Международной цветочной онлайн-площадки'!</h1>
+          <p class="promo__description">Присоединяйтесь к нам и начните получать доход с бизнеса в первый месяц регистрации!</p>
+          <ul class="promo__services-list">
+            <li class="promo__services-item">
+              <a class="promo__services-link promo__services-link--buy button-main" href="#">Начать покупать</a>
+            </li>
+            <li class="promo__services-item">
+              <a class="promo__services-link promo__services-link--sell button-secondary" href="#">Начать продавать</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="form-cooperation">
+        <div class="container">
+          <div class="form-cooperation__description">
+            <h2>Заполните форму и начните развивать свой бизнес прямо сейчас!</h2>
+            <p>Регистрация на нашем сайте занимает несколько минут, просим ответить на все вопросы полностью и корректно! После подтверждения регистрации вы попадёте в систему, где большинство процессов автоматизированы, что сэкономит ваше время и деньги!</p>
+          </div>
+          <form class="form-cooperation__user-form" method="post" action="#" target="_blank" autocomplete="off">
+            <fieldset class="form-cooperation__contacts">
+              <ul class="form-cooperation__contacts-list">
+                <li class="form-cooperation__contacts-item">
+                  <label class="form-cooperation__label" for="your-name">Ваше имя</label>
+                  <input class="form-cooperation__input" type="text" name="name" id="your-name" placeholder="Фролова Александра Васильевна">
+                </li>
+                <li class="form-cooperation__contacts-item">
+                  <label class="form-cooperation__label" for="company-name">Название компании</label>
+                  <input class="form-cooperation__input" type="text" name="company-name" id="company-name" placeholder="ООО Атлантика">
+                </li>
+                <li class="form-cooperation__contacts-item">
+                  <label class="form-cooperation__label" for="email">E-mail</label>
+                  <input class="form-cooperation__input" type="email" name="e-mail" id="email" placeholder="flolovaalexa@com.rur">
+                </li>
+                <li class="form-cooperation__contacts-item">
+                  <label class="form-cooperation__label" for="phone">Номер телефона</label>
+                  <input class="form-cooperation__input" type="tel" name="phone" id="phone" placeholder="+7 (XXX) - XXX XX XX">
+                </li>
+                <li class="form-cooperation__contacts-item">
+                  <label class="form-cooperation__label" for="promocode">Промокод</label>
+                  <input class="form-cooperation__input" type="text" name="promocode" id="promocode" placeholder="HGF864">
+                </li>
+                <li class="form-cooperation__contacts-item form-cooperation__contacts-item--button-send">
+                  <a class="form-cooperation__button-send button-main" href="#">Далее</a>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="form-cooperation__password hidden">
+              <ul class="form-cooperation__password-list">
+                <li class="form-cooperation__password-item">
+                  <label class="form-cooperation__label" for="your-password">Пароль</label>
+                  <input class="form-cooperation__input" type="password" name="password" id="your-password" placeholder="Создайте пароль">
+                </li>
+                <li class="form-cooperation__password-item">
+                  <label class="form-cooperation__label" for="confirm-password">Подтвердите пароль</label>
+                  <input class="form-cooperation__input" type="password" name="confirm-password" id="confirm-password" placeholder="Повторите пароль">
+                </li>
+                <li class="form-cooperation__password-item form-cooperation__password-item-captcha">
+                  <div class="form-cooperation__password-captcha">
+                    <img src="img/content/captcha-desktop.png" width="320" height="94" alt="Проверочный код для подтверждения пароля при регистрации">
+                  </div>
+                </li>
+                <li class="form-cooperation__password-item">
+                  <label class="form-cooperation__label" for="captcha">Введите символы из картинки</label>
+                  <input class="form-cooperation__input" type="text" name="captcha" id="captcha" placeholder="Код из картинки">
+                </li>
+                <li class="form-cooperation__password-item form-cooperation__password-item--buttons-confirm">
+                  <a class="form-cooperation__button-back button-secondary" href="#">Назад</a>
+                  <a class="form-cooperation__button-confirm button-main" href="#">Подтвердить</a>
+                </li>
+                <li class="form-cooperation__password-item form-cooperation__password-item--personal-data">
+                  <input class="visually-hidden" type="checkbox" name="processing-personal-data" id="processing-personal-data" checked>
+                  <label class="" for="processing-personal-data">Я даю согласие на обработку моих<br> персональных данных и правовых<br> документов</label>
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="page-footer__offices">
+          <span class="page-footer__subtitle">Наши офисы</span>
+          <div class="page-footer__offices-wrapper">
+            <p>Московский офис<br>
+              +7 455 267-89-07<br>
+              Берсеневский пер., д. 56, стр. 4,
+              6-й эт., Москва, 567754</p>
+            <p>
+              Ростовский офис<br>
+              +7 878 888-01-67<br>
+              Буденовский пр-т, д. 84, 6-й эт.,
+              Ростов-на-Дону, 679965</p>
+          </div>
+        </div>
+        <div class="page-footer__social-networks">
+          <span class="page-footer__subtitle">Мы в соц сетях</span>
+          <ul class="page-footer__social-list">
+            <li class="page-footer__social-item">
+              <a class="page-footer__social-link" href="https://www.instagram.com/">Instagram</a>
+            </li>
+            <li class="page-footer__social-item">
+              <a class="page-footer__social-link page-footer__social-link--facebook" href="https://facebook.com/">Facebook</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__contacts">
+          <span class="page-footer__subtitle">Свяжитесь с нами</span>
+          <ul class="page-footer__contacts-list">
+            <li class="page-footer__contacts-item">
+              <a class="page-footer__contacts-link page-footer__contacts-link--phone" href="#">+3 67 8754 7894</a>
+            </li>
+            <li class="page-footer__contacts-item">
+              <a class="page-footer__contacts-link page-footer__contacts-link--mail" href="#">mflowers@flo.com</a>
+            </li>
+            <li class="page-footer__contacts-item page-footer__contacts-item--btn-feedback button-main">
+              <a class="page-footer__contacts-link" href="#">Написать</a>
+              <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.28924 0.907491C8.42388 0.635003 11.5763 0.635003 14.7109 0.907491L16.2211 1.03877C17.2265 1.12617 18.0876 1.72584 18.5337 2.58361C18.5908 2.69335 18.548 2.82621 18.4428 2.89132L12.1769 6.77024C10.833 7.60216 9.1385 7.61962 7.77778 6.81556L1.46995 3.0882C1.36804 3.02798 1.32126 2.90402 1.36719 2.79492C1.77535 1.82536 2.69298 1.13318 3.77901 1.03877L5.28924 0.907491Z" fill="black"/>
+                <path d="M1.36206 4.76676C1.20609 4.6746 1.00709 4.77377 0.988912 4.95402C0.735176 7.46965 0.796587 10.0091 1.17314 12.5132C1.37166 13.8333 2.44907 14.8454 3.77901 14.961L5.28924 15.0923C8.42388 15.3647 11.5763 15.3647 14.7109 15.0923L16.2211 14.961C17.5511 14.8454 18.6285 13.8333 18.827 12.5132C19.2145 9.93613 19.2683 7.32162 18.9882 4.73415C18.9686 4.55264 18.7662 4.45529 18.611 4.55139L12.9664 8.04564C11.1482 9.17118 8.85566 9.19479 7.01468 8.10695L1.36206 4.76676Z" fill="black"/>
+                </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <span class="page-footer__copyright">Авторские права 2008-2022 M-flowers.com</span>
+    </footer>
+    <div class="modal modal--blackout hidden">
+      <div class="modal__content">
+        Ваши данные отправлены, вы зарегистрированы. Поздравляю!
+        <button class="modal__btn-close" type="button" aria-label="Закрыть модальное окно"></button>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

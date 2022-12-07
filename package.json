@@ -1,0 +1,24 @@
+{
+  "name": "flowers_market",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Тестовое задание для Modesto Flowers",
+  "devDependencies": {
+    "browser-sync": "2.27.10",
+    "eslint": "8.21.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.56.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp start",
+    "test": "eslint js/"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  }
+}

@@ -1,0 +1,209 @@
+.page-footer {
+  background-color: var(--color-footer);
+  color: var(--text-footer);
+  min-height: 339px;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+.page-footer a {
+  color: var(--text-footer);
+}
+@media (max-width: 1419px) {
+  .page-footer {
+    padding: 0;
+    padding-bottom: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .page-footer {
+    margin: 0 auto;
+  }
+}
+.page-footer .container {
+  display: flex;
+}
+@media (max-width: 1419px) {
+  .page-footer .container {
+    width: 768px;
+    flex-wrap: wrap;
+    padding: 32px 24px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  .page-footer .container {
+    width: 360px;
+    padding: 29px 24px 48px 24px;
+    flex-direction: column;
+  }
+}
+.page-footer .container div:not(:last-child) {
+  margin-right: 229px;
+}
+@media (max-width: 1419px) {
+  .page-footer .container div:not(:last-child) {
+    margin-right: 0;
+  }
+}
+.page-footer .page-footer__subtitle {
+  font-family: "Marmelad";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: block;
+  margin-bottom: 24px;
+}
+.page-footer .page-footer__offices {
+  width: 587px;
+}
+.page-footer .page-footer__offices p {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+@media (max-width: 1419px) {
+  .page-footer .page-footer__offices {
+    display: flex;
+    flex-direction: column;
+    width: 462px;
+    margin-bottom: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .page-footer .page-footer__offices {
+    width: 100%;
+  }
+}
+.page-footer .page-footer__offices-wrapper {
+  display: flex;
+  width: inherit;
+}
+.page-footer .page-footer__offices-wrapper :first-child {
+  width: 278px;
+  margin-right: 36px;
+}
+.page-footer .page-footer__offices-wrapper :last-child {
+  width: 275px;
+}
+@media (max-width: 1419px) {
+  .page-footer .page-footer__offices-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .page-footer .page-footer__offices-wrapper :first-child {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 1419px) {
+  .page-footer .page-footer__social-networks {
+    order: 3;
+  }
+}
+@media (max-width: 767px) {
+  .page-footer .page-footer__social-networks {
+    order: 2;
+  }
+}
+@media (max-width: 1419px) {
+  .page-footer .page-footer__contacts {
+    order: 2;
+    width: 247px;
+  }
+}
+@media (max-width: 767px) {
+  .page-footer .page-footer__contacts {
+    order: 3;
+    margin-top: 48px;
+  }
+}
+.page-footer .page-footer__social-link {
+  display: block;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 16px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+@media (max-width: 767px) {
+  .page-footer .page-footer__social-link--facebook {
+    margin-bottom: 0;
+  }
+}
+.page-footer .page-footer__contacts-link--phone {
+  display: block;
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 16px;
+}
+.page-footer .page-footer__contacts-link--mail {
+  display: block;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 16px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.page-footer .page-footer__contacts-item--btn-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 172px;
+  background-color: var(--main-button);
+  border-radius: 12px;
+  padding: 14px 32px;
+  box-sizing: border-box;
+  color: var(--main-text);
+  cursor: pointer;
+}
+.page-footer .page-footer__contacts-item--btn-feedback a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--main-text);
+}
+@media (max-width: 1419px) {
+  .page-footer .page-footer__contacts-item--btn-feedback {
+    width: 100%;
+    padding: 14px 69px;
+  }
+}
+@media (max-width: 767px) {
+  .page-footer .page-footer__contacts-item--btn-feedback {
+    width: 172px;
+    text-align: left;
+    padding: 14px 32px;
+  }
+}
+.page-footer .page-footer__contacts-item--btn-feedback:hover a {
+  color: var(--color-white);
+}
+.page-footer .page-footer__contacts-item--btn-feedback:hover path {
+  fill: var(--color-white);
+}
+.page-footer .page-footer__copyright {
+  display: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--text-copyrignt);
+}
+@media (max-width: 1419px) {
+  .page-footer .page-footer__copyright {
+    display: block;
+    width: 720px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .page-footer .page-footer__copyright {
+    width: 320px;
+  }
+}
+/*# sourceMappingURL=page-footer.css.map */

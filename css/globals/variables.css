@@ -1,0 +1,19 @@
+:root {
+  --main-text: #372e11;
+  --text-placeholder: #8e825c;
+  --text-footer: #fffbed;
+  --text-copyrignt: #b9b3b3;
+  --text-disabled: #9b9b99;
+  --text-hover: #dd0f0f;
+  --background-checkbox: #0e493f;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --main-button: #ffe182;
+  --secondary-button: #ededed;
+  --form-input: #fff8E1;
+  --color-footer: #372e11;
+  --modal-blackout: rgba(0, 0, 0, .9);
+  --tablet-width: 1419px;
+  --mobile-width: 767px;
+}
+/*# sourceMappingURL=variables.css.map */

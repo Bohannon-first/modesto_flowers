@@ -1,0 +1,40 @@
+.sign-up {
+  @media (max-width: 1419px) {
+    margin-right: 10px;
+  }
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.sign-up__login-link {
+  margin-right: 40px;
+}
+
+.sign-up__login-link:hover {
+  color: var(--text-hover);
+}
+
+.sign-up__login-link:active {
+  opacity: 0.5;
+}
+
+.sign-up__registration-link {
+  padding: 14px 30px;
+  border-radius: 12px;
+  border: 1px var(--color-black) solid;
+
+  @media (max-width: 1419px) {
+    display: none;
+  }
+}
+
+.sign-up__registration-link:hover {
+  background-color: var(--text-hover);
+  color: var(--color-white);
+}
+
+.sign-up__registration-link:active {
+  opacity: 0.5;
+}

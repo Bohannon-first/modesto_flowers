@@ -1,0 +1,117 @@
+.modal {
+  animation: showModal 0.5s ease 0s 1 normal forwards;
+}
+
+.modal__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1001;
+  position: fixed;
+  background-color: var(--form-input);
+  box-sizing: border-box;
+  padding: 15px 15px;
+  width: 500px;
+  min-height: 350px;
+  font-family: "Marmelad";
+  background-color: var(--color-footer);
+  color: var(--text-footer);
+  font-size: 36px;
+  line-height: 2.5rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 24%;
+  text-align: center;
+  border-radius: 5px;
+
+  @media (max-width: 767px) {
+    width: 320px;
+    min-height: fit-content;
+    font-size: 22px;
+  }
+}
+
+.modal--blackout {
+  background-color: var(--modal-blackout);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+.modal__btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.modal__btn-close::before {
+  position: absolute;
+  content: '';
+  top: 14px;
+  left: 8px;
+  width: 15px;
+  height: 2px;
+  background-color: var(--text-footer);
+  transform: rotate(45deg);
+}
+
+.modal__btn-close::after {
+  position: absolute;
+  content: '';
+  top: 14px;
+  left: 8px;
+  width: 15px;
+  height: 2px;
+  background-color: var(--text-footer);
+  transform: rotate(-45deg);
+}
+
+.modal__btn-close:hover::before {
+  background-color: var(--text-hover);
+}
+
+.modal__btn-close:hover::after {
+  background-color: var(--text-hover);
+}
+
+.modal__btn-close:active::before {
+  opacity: 0.5;
+}
+
+.modal__btn-close:active::after {
+  opacity: 0.5;
+}
+
+// Анимация появления модального окна о регистрации
+@keyframes showModal {
+  0% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+// Анимация закрытия модального окна о регистрации
+@keyframes closeModal {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}

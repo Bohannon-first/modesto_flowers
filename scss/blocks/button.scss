@@ -1,0 +1,17 @@
+.button-main:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.button-main:active {
+  opacity: 0.5;
+}
+
+.button-secondary:hover {
+  background-color: var(--color-footer);
+  color: var(--color-white);
+}
+
+.button-secondary:active {
+  opacity: 0.5;
+}
